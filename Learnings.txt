@@ -1,0 +1,3 @@
+1) Set state is a asynchronus function and if we try to print below the state we dont get proper result
+2) set state accepts first paramater as a object or function with state & props as args if something we need to do with previous state set state also accepts 2nd paramater a callaback function which is guaranteed to run after setState is completed
+3) We can use console log for set state inside that callaback 
