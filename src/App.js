@@ -26,6 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <h1>Monsters Rolatex</h1>
         <SearchBox placeHolder="Search monsters" searchField={this.state.searchField} onInputChange={this.onInputChange}/>
         {this.monsterRenderHelper()}
       </div>
